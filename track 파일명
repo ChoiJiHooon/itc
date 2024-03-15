@@ -1,0 +1,207 @@
+[33mcommit bc705d35d86e319977cfe2d19215db5af5aa5991[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: ChoiJiHunn <prin81208@gmail.com>
+Date:   Sat Dec 2 01:57:30 2023 +0900
+
+    itc
+
+[33mcommit 72fe75af230f8b2d22e0b69c3c3b255e6e2251ad[m
+Author: ChoiJiHunn <prin81208@gmail.com>
+Date:   Sat Dec 2 01:41:04 2023 +0900
+
+    itc
+
+[33mcommit f3cd21a28b3c69347192a4f2d42a264541cc338b[m
+Author: ChoiJiHunn <prin81208@gmail.com>
+Date:   Sat Dec 2 01:39:23 2023 +0900
+
+    itc
+
+[33mcommit 411e0b7f407c8c99da07fa738e0af67f04be9af6[m
+Author: ChoiJiHunn <prin81208@gmail.com>
+Date:   Sat Dec 2 01:31:12 2023 +0900
+
+    itc
+
+[33mcommit ae764003a708f66f1bdb75b24d0599b0bdb775c2[m
+Author: ChoiJiHunn <prin81208@gmail.com>
+Date:   Fri Dec 1 19:54:22 2023 +0900
+
+    itc
+
+[33mcommit a2804c98d486ec104e1423fccc0f42fb56fa325c[m
+Author: ChoiJiHuun <150788278+ChoiJiHuun@users.noreply.github.com>
+Date:   Sat Dec 2 01:52:57 2023 +0900
+
+    Delete app/release directory
+
+[33mcommit 26396de2ac9625d05a211346acff43b718ef15ab[m
+Author: ChoiJiHunn <prin81208@gmail.com>
+Date:   Fri Dec 1 18:46:58 2023 +0900
+
+    itc
+
+[33mcommit 84b68da99c860bee3ee5faf7ab87a7bb4f4540e5[m
+Author: ChoiJiHunn <prin81208@gmail.com>
+Date:   Fri Dec 1 18:38:15 2023 +0900
+
+    itc
+
+[33mcommit cb91486e8c445df5065248a2540737ea58c58395[m
+Author: ChoiJiHunn <prin81208@gmail.com>
+Date:   Fri Dec 1 18:22:32 2023 +0900
+
+    itc
+
+[33mcommit 2e670405f2aebb7b16aad015228e53f6aead1021[m
+Author: ChoiJiHunn <prin81208@gmail.com>
+Date:   Fri Dec 1 15:36:48 2023 +0900
+
+    itc
+
+[33mcommit c203707500a27f1b96dadf8dd8b2adacc3536601[m
+Merge: 2b009fc 0f52c11
+Author: ChoiJiHunn <prin81208@gmail.com>
+Date:   Fri Dec 1 01:18:02 2023 +0900
+
+    Merge remote-tracking branch 'origin/master'
+    
+    # Conflicts:
+    #       app/src/main/res/layout/activity_start.xml
+
+[33mcommit 2b009fc48c988fd737fdbe13c3d70c1d4de987c5[m
+Author: ChoiJiHunn <prin81208@gmail.com>
+Date:   Fri Dec 1 01:13:06 2023 +0900
+
+    itc
+
+[33mcommit 0f52c111baa16ab5c8e9f26db1abd77efd09680c[m
+Author: 405supply <405supplychoi@gmail.com>
+Date:   Fri Dec 1 00:57:27 2023 +0900
+
+    itc
+
+[33mcommit f9b6ed987337d7ecd9d6a3ab43bf0a9b8d30011f[m
+Author: 405supply <405supplychoi@gmail.com>
+Date:   Thu Nov 30 22:38:19 2023 +0900
+
+    itc
+
+[33mcommit 836334f418119d503cc42da2a7b1205b2c531f24[m
+Author: ChoiJiHunn <prin81208@gmail.com>
+Date:   Thu Nov 30 21:48:08 2023 +0900
+
+    itc
+
+[33mcommit 4a66070f807d252958294b92b545a3cb1121847b[m
+Author: 405supply <405supplychoi@gmail.com>
+Date:   Thu Nov 30 21:38:44 2023 +0900
+
+    itc
+
+[33mcommit bb6e6e64141df56bfae7c49d2be89c65460c4f37[m
+Author: ChoiJiHunn <prin81208@gmail.com>
+Date:   Thu Nov 30 14:51:14 2023 +0900
+
+    itc
+
+[33mcommit e9bbe8c6553417de52d5e0f48f0ced68d6ff23be[m
+Author: ChoiJiHunn <prin81208@gmail.com>
+Date:   Thu Nov 30 14:38:55 2023 +0900
+
+    itc
+
+[33mcommit 220c938b5b86dd39184d930a4e3458b215748f3e[m
+Author: 405supply <405supplychoi@gmail.com>
+Date:   Thu Nov 30 01:33:08 2023 +0900
+
+    itc
+
+[33mcommit fedce81b79aca3164b705299ac9da22693fc5838[m
+Author: 405supply <405supplychoi@gmail.com>
+Date:   Thu Nov 30 01:05:25 2023 +0900
+
+    itc
+
+[33mcommit 8e180f34fb2977fb3b6f021ca2c44ff5992e0cd4[m
+Author: ChoiJiHunn <prin81208@gmail.com>
+Date:   Thu Nov 30 00:12:53 2023 +0900
+
+    itc
+
+[33mcommit 0708ca04fa109b634cecc98e21529a999e459973[m
+Author: 405supply <405supplychoi@gmail.com>
+Date:   Wed Nov 29 23:45:03 2023 +0900
+
+    itc
+
+[33mcommit 635d22afc35a13893321563a3f991001a2667916[m
+Author: 405supply <405supplychoi@gmail.com>
+Date:   Wed Nov 29 23:26:32 2023 +0900
+
+    itc
+
+[33mcommit 52e2f1287422eb2195fa880309e8a21ebcb93031[m
+Author: 405supply <405supplychoi@gmail.com>
+Date:   Wed Nov 29 23:13:57 2023 +0900
+
+    itc
+
+[33mcommit 504dfa9e127cf69051277d9a9e0b58189460b5bc[m
+Author: 405supply <405supplychoi@gmail.com>
+Date:   Wed Nov 29 23:06:05 2023 +0900
+
+    itc
+
+[33mcommit 659c87c60cee39dc6145c7c66c511310cc4b622a[m
+Author: 405supply <405supplychoi@gmail.com>
+Date:   Wed Nov 29 22:38:08 2023 +0900
+
+    itc
+
+[33mcommit ad8723ff4982f122bcba9abdce2ed5503d61d5cb[m
+Author: 405supply <405supplychoi@gmail.com>
+Date:   Wed Nov 29 22:01:48 2023 +0900
+
+    itc
+
+[33mcommit 6000e7200ad168b7e58a4af1bdfb9b3ed28251d2[m
+Author: ChoiJiHunn <prin81208@gmail.com>
+Date:   Wed Nov 29 20:14:49 2023 +0900
+
+    itc
+
+[33mcommit a4912fe148678fd5eaa4ea01545ca02c893796c4[m
+Author: 405supply <405supplychoi@gmail.com>
+Date:   Wed Nov 29 19:40:54 2023 +0900
+
+    itc
+
+[33mcommit 34419f7c51200714cb36555fb12357feed2b5dee[m
+Author: ChoiJiHunn <prin81208@gmail.com>
+Date:   Wed Nov 29 02:35:33 2023 +0900
+
+    itc
+
+[33mcommit da491fc4d1f8270c266a716d6d9e55cf25b67d92[m
+Author: ChoiJiHunn <prin81208@gmail.com>
+Date:   Wed Nov 29 02:35:11 2023 +0900
+
+    itc
+
+[33mcommit ae8ef69812f13218aa9bb0d395b843523780c3d9[m
+Author: ChoiJiHunn <prin81208@gmail.com>
+Date:   Thu Nov 23 20:52:10 2023 +0900
+
+    itc
+
+[33mcommit ef1ad823d2c64dd492f96832530ff29385c457f2[m
+Author: ChoiJiHunn <prin81208@gmail.com>
+Date:   Wed Nov 22 18:26:30 2023 +0900
+
+    itc
+
+[33mcommit d62bb72f968bec04f1a1876ad581f631ecbedcab[m
+Author: ChoiJiHunn <prin81208@gmail.com>
+Date:   Tue Nov 14 18:25:25 2023 +0900
+
+    itc

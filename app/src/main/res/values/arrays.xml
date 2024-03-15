@@ -2,19 +2,84 @@
 <resources>
     <!-- 대분류 -->
     <string-array name="categories">
-        <item>가구</item>
-        <item>가전제품</item>
+        <item>밥상</item>
+        <item>서랍장</item>
+        <item>소파</item>
+        <item>의자</item>
+        <item>장롱</item>
+        <item>책상</item>
+        <item>골프채</item>
+        <item>항아리</item>
+        <item>화분</item>
+        <item>자전거</item>
+        <item>세발자전거</item>
+        <item>TV</item>
+        <item>냉장고</item>
     </string-array>
 
     <!-- 가구 소분류 (각 항목은 이름과 가격을 쉼표로 구분) -->
-    <string-array name="furniture_subcategories">
-        <item>소파,200.0</item>
-        <item>테이블,150.0</item>
+    <string-array name="dining_table_">
+        <item>4인용,2000,00100101</item>
+        <item>5인용,3000,00100102</item>
     </string-array>
 
     <!-- 가전제품 소분류 (각 항목은 이름과 가격을 쉼표로 구분) -->
-    <string-array name="appliances_subcategories">
-        <item>TV,500.0</item>
-        <item>냉장고,800.0</item>
+    <string-array name="shelf_">
+        <item>1단당,1500,00100201</item>
+        <item>책상용,3000,00100202</item>
+    </string-array>
+    <string-array name="sofa_">
+        <item>1인용,4000,00100301</item>
+        <item>2인용,8000,00100302</item>
+    </string-array>
+    <string-array name="chair_">
+        <item>1인용,3000,00100401</item>
+        <item>2인용,5000,001004012</item>
+        <item>3인용,7000,00100403</item>
+        <item>바퀴,4000,00100404</item>
+        <item>좌식,2000,00100405</item>
+    </string-array>
+    <string-array name="wardrobe_">
+        <item>폭30cm,4500,00100501</item>
+        <item>폭60cm,9000,00100502</item>
+    </string-array>
+    <string-array name="desk_">
+        <item>120cm미만,3000,00100601</item>
+        <item>120cm초과,6000,00100602</item>
+        <item>H형,13000,00100603</item>
+    </string-array>
+    <string-array name="golf_club_">
+        <item>1개,1000,00200101</item>
+        <item>2개,2000,00200102</item>
+    </string-array>
+    <string-array name="jar_">
+        <item>높이30cm이하,2000,00300101</item>
+        <item>30cm이상 60cm미만,3000,00300102</item>
+        <item>60cm이상,5000,00300103</item>
+    </string-array>
+    <string-array name="pot_">
+        <item>50cm이하,1000,00300201</item>
+        <item>50cm이상,1500,00300201</item>
+    </string-array>
+    <string-array name="bicycle_">
+        <item>성인용,4000,00400101</item>
+    </string-array>
+    <string-array name="tricycle_">
+        <item>유아용,3000,00400201</item>
+    </string-array>
+    <string-array name="television_">
+        <item>L)24인치미만,2000,00500101</item>
+        <item>L)24~42인치미만,4000,00500102</item>
+        <item>L)42~64인치미만,6000,00500103</item>
+        <item>L)64인치이상,8000,00500104</item>
+        <item>브)25인치미만,3000,00500105</item>
+        <item>브)25~42인치미만,5000,00500106</item>
+        <item>브)42인치이상,7000,00500107</item>
+    </string-array>
+    <string-array name="regrigerator_">
+        <item>300L미만,6000,00500201</item>
+        <item>300L~500L미만,8000,00500202</item>
+        <item>500L~1000L미만,11000,00500203</item>
+        <item>1000L이상,25000,00500204</item>
     </string-array>
 </resources>

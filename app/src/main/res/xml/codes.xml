@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="code_array">
+        <item>00100101,밥상 / 4인용</item>
+        <item>00100102,밥상 / 5인용</item>
+        <item>00100201,서랍장 / 1단당</item>
+        <item>00100202,서랍장 / 책상용</item>
+        <item>00100301,소파 / 1인용</item>
+        <item>00100302,소파 / 2인용</item>
+        <item>00100401,의자 / 1인용</item>
+        <item>00100402,의자 / 2인용</item>
+        <item>00100403,의자 / 3인용</item>
+        <item>00100404,의자 / 바퀴</item>
+        <item>00100405,의자 / 좌식</item>
+        <item>00100501,장롱 / 폭30cm</item>
+        <item>00100502,장롱 / 폭60cm</item>
+        <item>00100601,책상 / 120cm 미만</item>
+        <item>00100602,책상 / 120cm 초과</item>
+        <item>00100603,책상 / H형</item>
+        <item>00200101,골프채 / 1채</item>
+        <item>00200102,골프채 / 2채</item>
+        <item>00300101,항아리 / 30cm이하</item>
+        <item>00300102,항아리 / 30 ~ 60cm미만</item>
+        <item>00300103,항아리 / 높이 60cm 이상</item>
+        <item>00300201,화분 / 50cm이하</item>
+        <item>00300202,화분 / 50cm이상</item>
+        <item>00400101,두발자전거 / 성인용</item>
+        <item>00400201,세발자전거 / 유아용</item>
+        <item>00500101,TV / L)24인치 미만</item>
+        <item>00500102,TV / L)24~42인치 미만</item>
+        <item>00500103,TV / L)42~64인치 미만</item>
+        <item>00500104,TV / L)64인치 이상</item>
+        <item>00500105,TV / 25인치 미만</item>
+        <item>00500106,TV / 25 ~ 42인치 미만</item>
+        <item>00500107,TV / 42인치 이상</item>
+        <item>00500201,냉장고 / 300L 미만</item>
+        <item>00500202,냉장고 / 300 ~ 500L 미만</item>
+        <item>00500203,냉장고 / 500 ~ 1000L 미만</item>
+        <item>00500204,냉장고 / 1000L 이상</item>
+
+
+    </string-array>
+</resources>

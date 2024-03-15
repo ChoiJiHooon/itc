@@ -2,56 +2,55 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/manage_button"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#F6F5F5"
     tools:context=".MainActivity">
 
+    <!-- TextView 추가 -->
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="160dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginEnd="160dp"
-        android:text="BTC"
-        android:textColor="#B8F6B8"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="250dp"
+        android:text="내 정보"
+        android:textColor="#D2C6E3"
         android:textSize="40sp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/nestedScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:contentDescription="Nested Scroll View"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_profile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            tools:listitem="@layout/item_recycler_ex" />
+
+    </androidx.core.widget.NestedScrollView>
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd = "3dp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.027" />
-
-    <Button
-        android:id="@+id/AI_button"
-        android:layout_width="337dp"
-        android:layout_height="237dp"
-        android:layout_marginStart="30dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginEnd="30dp"
-        android:background="#BFFFBF"
-        android:text="쓰레기 버리러 가기"
-        android:textColor="#000000"
-        android:textSize="48sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
-
-    <Button
-        android:id="@+id/Manage_button"
-        android:layout_width="337dp"
-        android:layout_height="237dp"
-        android:layout_marginStart="30dp"
-        android:layout_marginTop="70dp"
-        android:layout_marginEnd="30dp"
-        android:layout_marginBottom="50dp"
-        android:background="#BFFFBF"
-        android:text="내 정보 보기"
-        android:textColor="#000000"
-        android:textSize="48sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/AI_button" />
+        app:srcCompat="@drawable/menu_bar" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -4,11 +4,27 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MapsActivity">
 
-    <fragment
+
+    <!-- 아래에 추가할 버튼 -->
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/map_fragment"
+        android:name="com.naver.maps.map.MapFragment"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/map"
-        android:name="com.google.android.gms.maps.SupportMapFragment" />
+        android:layout_height="400dp"
+        android:layout_weight="2" />
+
+    <android.widget.Button
+        android:id="@+id/place_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_button"
+        android:backgroundTint="#D2C6E3"
+        android:text="위치설정하기"
+        android:textColor="#000000"
+        tools:visibility="visible" />
 </LinearLayout>
+
+

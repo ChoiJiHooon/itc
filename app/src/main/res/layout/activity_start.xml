@@ -4,34 +4,50 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFFFFF"
     tools:context=".StartActivity">
+    <ImageButton
+        android:id="@+id/Naver_button"
+        android:layout_width="335dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="24dp"
+        android:contentDescription="버튼의 기능 설명"
+        android:enabled="true"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/Kakao_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.517"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/naverthree" />
 
     <ImageButton
         android:id="@+id/Kakao_button"
-        android:layout_width="278dp"
-        android:layout_height="48dp"
-        android:layout_marginStart="100dp"
-        android:layout_marginTop="348dp"
-        android:layout_marginEnd="100dp"
+        android:layout_width="335dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="133dp"
+        android:layout_marginEnd="133dp"
+        android:layout_marginBottom="30dp"
+        android:contentDescription="버튼의 기능 설명"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.507"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView4"
-        app:srcCompat="@drawable/kakao_login_large_wide"
-        android:contentDescription="버튼의 기능 설명"/>
+        app:srcCompat="@drawable/kakaothree" />
 
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="100dp"
-        android:layout_marginTop="91dp"
-        android:layout_marginEnd="100dp"
-        android:layout_marginBottom="452dp"
-        android:text="BTC"
-        android:textSize="40sp"
-        app:layout_constraintBottom_toTopOf="@+id/Kakao_button"
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="280dp"
+        android:layout_height="280dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="128dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="128dp"
+        app:layout_constraintBottom_toTopOf="@+id/Naver_button"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/itc_final" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
